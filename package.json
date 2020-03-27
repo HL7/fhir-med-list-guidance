@@ -1,0 +1,24 @@
+{
+    "name": "hl7.fhir.med-list-guidance",
+    "version" : "0.1.0",
+    "canonical" : "http://hl7.org/fhir/med-list-guidance",
+    "url": "http://hl7.org/fhir/med-list-guidance/ImplementationGuide/hl7.fhir.med-list-guidance",
+    "title" : "HL7 Pharmacy: Medication List Guidance",
+    "description": "Guidance to Implementation Guide authors who are incorporating Medication List(s) of some context in their guide.",
+    "dependencies": {
+    	"hl7.fhir.r4.core": "4.0.1"
+    },
+    "keywords": [
+	"Pharmacy",
+	"Medication List"
+    ],
+    "language": "en",
+    "author": "HL7 Pharmacy",
+    "maintainers": [
+      {
+        "name": "HL7 Pharmacy",
+        "email": "mailto:pharmacy@lists.hl7.org"
+      }
+    ],
+    "license": "CC0-1.0"
+}
