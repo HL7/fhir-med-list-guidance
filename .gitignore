@@ -1,7 +1,12 @@
-input-cache/org.hl7.fhir.publisher.jar
 output/**
 temp/**
 template/**
 **/.DS_Store
 **/thumbs.db
-*.*
+FHIR-med-list-guidance.xml
+ig.ini
+input/**
+package-list.json
+package.json
+input-cache/org.hl7.fhir.publisher.jar
+
