@@ -9,16 +9,15 @@ files.
 NOTE: This file does not currently list the FHIR resources and examples generated from .fsh files. It only
 lists those files generated from project configs or the contents in the ig-data folder.
 
-| SUSHI-GENERATED FILE                                         | ACTION    | INPUT FILE(S)                                                         |
-| ------------------------------------------------------------ | --------- | --------------------------------------------------------------------- |
-| ig.ini                                                       | generated | fsh/ig-data/ig.ini, fsh/package.json                                  |
-| input/ImplementationGuide-hl7.fhir.uv.med-list-guidance.json | generated | fsh/ig-data/ig.ini, fsh/package.json, {all input resources and pages} |
-| input/ignoreWarnings.txt                                     | generated |                                                                       |
-| package-list.json                                            | generated | fsh/package.json                                                      |
-| input/includes/menu.xml                                      | copied    | fsh/ig-data/input/includes/menu.xml                                   |
-| input/pagecontent/dischargemeds.md                           | copied    | fsh/ig-data/input/pagecontent/3_dischargemeds.md                      |
-| input/pagecontent/downloads.md                               | copied    | fsh/ig-data/input/pagecontent/downloads.md                            |
-| input/pagecontent/guidance.md                                | copied    | fsh/ig-data/input/pagecontent/1_guidance.md                           |
-| input/pagecontent/index.md                                   | copied    | fsh/ig-data/input/pagecontent/index.md                                |
-| input/pagecontent/patientview.md                             | copied    | fsh/ig-data/input/pagecontent/2_patientview.md                        |
-| package.json                                                 | copied    | fsh/package.json                                                      |
+| SUSHI-GENERATED FILE                                         | ACTION    | INPUT FILE(S)                                    |
+| ------------------------------------------------------------ | --------- | ------------------------------------------------ |
+| ig.ini                                                       | generated | fsh/config.yaml, fsh/ig-data/ig.ini              |
+| input/ImplementationGuide-hl7.fhir.uv.med-list-guidance.json | generated | fsh/config.yaml, {all input resources and pages} |
+| input/ignoreWarnings.txt                                     | generated |                                                  |
+| package-list.json                                            | generated | fsh/config.yaml                                  |
+| input/includes/menu.xml                                      | copied    | fsh/ig-data/input/includes/menu.xml              |
+| input/pagecontent/dischargemeds.md                           | copied    | fsh/ig-data/input/pagecontent/3_dischargemeds.md |
+| input/pagecontent/downloads.md                               | copied    | fsh/ig-data/input/pagecontent/downloads.md       |
+| input/pagecontent/guidance.md                                | copied    | fsh/ig-data/input/pagecontent/1_guidance.md      |
+| input/pagecontent/index.md                                   | copied    | fsh/ig-data/input/pagecontent/index.md           |
+| input/pagecontent/patientview.md                             | copied    | fsh/ig-data/input/pagecontent/2_patientview.md   |

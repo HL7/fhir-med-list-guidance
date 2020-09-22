@@ -8,5 +8,5 @@ ig.ini
 input/**
 package-list.json
 package.json
-input-cache/org.hl7.fhir.publisher.jar
+input-cache/**
 
