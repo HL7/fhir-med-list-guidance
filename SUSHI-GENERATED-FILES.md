@@ -11,13 +11,12 @@ lists those files generated from project configs or the contents in the ig-data 
 
 | SUSHI-GENERATED FILE                                         | ACTION    | INPUT FILE(S)                                    |
 | ------------------------------------------------------------ | --------- | ------------------------------------------------ |
-| ig.ini                                                       | generated | fsh/config.yaml, fsh/ig-data/ig.ini              |
+| ig.ini                                                       | generated | fsh/config.yaml                                  |
 | input/ImplementationGuide-hl7.fhir.uv.med-list-guidance.json | generated | fsh/config.yaml, {all input resources and pages} |
 | input/ignoreWarnings.txt                                     | generated |                                                  |
-| package-list.json                                            | generated | fsh/config.yaml                                  |
-| input/includes/menu.xml                                      | copied    | fsh/ig-data/input/includes/menu.xml              |
-| input/pagecontent/dischargemeds.md                           | copied    | fsh/ig-data/input/pagecontent/3_dischargemeds.md |
+| input/includes/menu.xml                                      | generated | fsh/config.yaml                                  |
+| input/pagecontent/dischargemeds.md                           | copied    | fsh/ig-data/input/pagecontent/dischargemeds.md   |
 | input/pagecontent/downloads.md                               | copied    | fsh/ig-data/input/pagecontent/downloads.md       |
-| input/pagecontent/guidance.md                                | copied    | fsh/ig-data/input/pagecontent/1_guidance.md      |
+| input/pagecontent/guidance.md                                | copied    | fsh/ig-data/input/pagecontent/guidance.md        |
 | input/pagecontent/index.md                                   | copied    | fsh/ig-data/input/pagecontent/index.md           |
-| input/pagecontent/patientview.md                             | copied    | fsh/ig-data/input/pagecontent/2_patientview.md   |
+| input/pagecontent/patientview.md                             | copied    | fsh/ig-data/input/pagecontent/patientview.md     |

@@ -1,10 +1,3 @@
-# ╭────────────────────────────────────────────────────────────────────────────────────────────────╮
-# │  ACTION REQUIRED: REVIEW AND EDIT THIS FILE TO ENSURE IT ACCURATELY REFLECTS YOUR PROJECT!     │
-# │                                                                                                │
-# │  This file was generated from your existing project files and will be used for SUSHI           │
-# │  configuration from now on. You may delete your package.json as it is no longer needed.        │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-
 # ╭─────────────────────ImplementationGuide-hl7.fhir.uv.med-list-guidance.json─────────────────────╮
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see:                                                                    │
@@ -29,34 +22,28 @@ parameters:
 copyrightYear: 2020+
 releaseLabel: CI Build
 
-# ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
-# │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-history:
-  current: http://build.fhir.org/ig/example/example-ig
-  0.0.1:
-    fhirversion: 4.0.1
-    date: 2099-01-01
-    desc: Initial STU ballot (Mmm yyyy Ballot)
-    path: http://example.org/fhir/STU1
-    status: ballot
-    sequence: STU 1
-    current: true
-
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
 # │  To control the ig.ini using this config, uncomment and set the "template" property.           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-# template: hl7.fhir.template
+template: hl7.fhir.template
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To control the menu.xml using this config, uncomment and set the "menu" property.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-# menu:
-#   Home: index.html
-#   General Guidance: guidance.html
-#   List Contexts:
-#     Patient View of Medications: patientview.html
-#     Discharge Medications: dischargemeds.html
-#   Downloads: downloads.html
-#   Artifacts:
-#     Profiles: artifacts.html#1
+menu:
+  Introduction: index.html
+  List Contexts:
+    Patient View of Medications: patientview.html
+    Discharge Medications: dischargemeds.html
+  Downloads: downloads.html
+
+pages:
+  index.md:
+    title: Introduction
+  patientview.md:
+    title: Patient View of Medications
+  dischargemeds.md:
+    title: Discharge Medications
+  downloads.md:
+    title: Downloads
+		
