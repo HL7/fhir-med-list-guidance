@@ -21,29 +21,39 @@ parameters:
   show-inherited-invariants: false
 copyrightYear: 2020+
 releaseLabel: CI Build
-
-# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
-# │  To control the ig.ini using this config, uncomment and set the "template" property.           │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-template: hl7.fhir.template
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To control the menu.xml using this config, uncomment and set the "menu" property.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Introduction: index.html
+  Guidance: guidance.html
   List Contexts:
+    Prescribing Lists: prescribemeds.html
+    Dispensing Lists: dispensemeds.html
+    Medication Administration Lists: medadmin.html
+    Medication Administration History: medadminhistory.html
     Patient View of Medications: patientview.html
-    Discharge Medications: dischargemeds.html
-  Downloads: downloads.html
+    Medication Reconciliation: medrec.html
+    Blister Packing Lists: blisterpack.html
 
 pages:
   index.md:
     title: Introduction
+  guidance.md:
+    title: Guidance
+  prescribemeds.md:
+    title: Prescribing Lists
+  dispensemeds.md:
+    title: Dispensing Lists
+  medadmin.md:
+    title: Medication Administration Lists
+  medadminhistory.md:
+    title: Medication Administration History
   patientview.md:
     title: Patient View of Medications
-  dischargemeds.md:
-    title: Discharge Medications
-  downloads.md:
-    title: Downloads
-		
+  medrec.md:
+    title: Medication Reconciliation
+  blisterpack.md:
+    title: Blister Packing Lists
